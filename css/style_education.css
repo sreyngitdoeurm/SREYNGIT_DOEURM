@@ -28,7 +28,7 @@ li a{
     color: white;
 }
 
-a:hover{
+li a:hover{
     background: orange;
 }
 .right{
@@ -40,7 +40,7 @@ a:hover{
 
 img{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
 }
 
 
@@ -54,6 +54,9 @@ img{
 }
 .education{
     text-align: center;
+    
+    margin: 0;
+    
 }
 .footer{
     bottom: 0;
@@ -62,4 +65,15 @@ img{
     width: 90.5%;
     color: white;
     padding: 60px;
+}
+.footer{
+    display: flex;
+    
+}
+.direct{
+    color: white;
+    margin-right: 400px;
+}
+i{
+    margin: 5px;
 }

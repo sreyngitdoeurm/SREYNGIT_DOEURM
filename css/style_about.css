@@ -46,9 +46,6 @@ a:hover{
     margin-left: 600px;
     
 }
-h2{
-    font-family: brush script mt;
-}
 
 .footer{
     bottom: 0;
@@ -57,4 +54,19 @@ h2{
     width: 90.5%;
     color: white;
     padding: 60px;
+}
+.footer{
+    display: flex;
+    
+}
+.direct{
+    color: white;
+    margin-right: 400px;
+}
+.direct{
+    color: white;
+    margin-right: 400px;
+}
+i{
+    margin: 5px;
 }
