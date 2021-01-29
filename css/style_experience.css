@@ -4,25 +4,21 @@
     font-family: sans-serif;
     
 }
-
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .container{
     background: black;
     display: flex;
+    
     
 
     
 }
 .lefl{
     padding: 20px;
-}
-.right{
-    margin-top: 20px;
-    color: white;
-    margin-left: 400px;
-    font-family:serif;
-}
-h4{
-    font-family: brush script mt;
 }
 ul {
     padding: 15px;
@@ -37,27 +33,56 @@ li a{
     color: white;
 }
 
-a:hover{
+li a:hover{
     background: orange;
 }
+
 .right{
     margin-top: 20px;
     color:blue;
     margin-left: 600px;
     
 }
+.header{
+    margin: 5%;
+    
+}
+.header h4{
+    margin-left: 5%;
+    padding: 10px;
+    font-size: 200%;
+    color: rgb(226, 85, 85);
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.top img{
+    width: 50%;
+    height: 80vh;
+}
+.text{
+    background: white;
+    border: gray 1px solid;
+    box-shadow:gray 0.5px 0.5px 2px 2px;
+    padding: 20px;
+    
+}
+
+
+
 
 .footer{
-    bottom: 0;
-    position: static;
-    background: rgb(8, 8, 56);
-    width: 90.5%;
-    color: white;
-    padding: 60px;
-}
-.footer{
-    display: flex;
     
+    background: rgb(8, 8, 56);
+    color: white;
+    padding: 2%;
+    
+    
+}
+.media{
+    text-align: center;
 }
 .direct{
     color: white;

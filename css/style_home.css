@@ -1,18 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    
     
 }
-
-
-.container{
-    background: black;
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
     display: flex;
-    
-
-    
+    background: #000;
+    justify-content: space-between;
+    align-items: center;
 }
 .lefl{
     padding: 20px;
@@ -23,10 +24,8 @@
     margin-left: 600px;
     
 }
-
 ul {
-    padding: 15px;
-    
+    padding: 20px;
     
     display: flex;
     list-style: none;
@@ -39,39 +38,42 @@ li a{
 
 li a:hover{
     background: orange;
-    height: 100%;
 }
 .header{
     background-image:url(../images/Homepage-background.jpg);
-    width: 100%;
-    height: 70vh;
+   margin: 0;
+   padding: 0;
+   height: 70vh;
     
 }
-
 .text{
-    color:white;
+    color:rgb(143, 101, 12);
     text-align: center;
-    font-size: 30px;
-    padding-top: 70px;
+    font-size: 20px;
+    padding: 10%;
+    
 }
 .body{
     background: rgb(235, 233, 233);
-}
+    margin: 0;
+    padding: 0;
     
-
-
+}
 .card{
     display: flex;
-    margin-left: 100px;
+    justify-content: space-around;
 }
 .card1,.card2,.card3{
-    
+    background: white;
     border: black 3px solid;
     height: 70vh;
-    margin: 50px;
+    /* margin: 50px; */
     width: 20%;
+    text-align: center;
+    padding: 10px;
 
 }
+
 img{
     width: 100%;
     height: 40vh;
@@ -83,20 +85,23 @@ img{
 a{
     text-decoration: none;
 }
-a:hover{
+h3 a:hover{
     text-decoration: underline;
 }
+
 .footer{
-    bottom: 0;
-    position: static;
-    background: rgb(8, 8, 56);
-    width: 90.5%;
-    color: white;
-    padding: 60px;
-}
-.footer{
-    display: flex;
     
+    background: rgb(8, 8, 56);
+    color: white;
+    padding: 2%;
+    
+}
+.media{
+    text-align: center;
+}
+.direct{
+    color: white;
+    margin-right: 400px;
 }
 .direct{
     color: white;
@@ -104,4 +109,16 @@ a:hover{
 }
 i{
     margin: 5px;
+}
+.download{
+    background: rgb(183, 226, 236);
+    padding: 30px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 10%;
+    width: 20%;
+    background: cyan;
+    font-size: 200%;
 }
